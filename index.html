@@ -773,7 +773,6 @@
                 return () => clearTimeout(timeout);
             }, [charIndex, isDeleting, roleIndex, roles]);
 
-            // Close menu on escape
             // Close menu on escape and prevent body scroll
             useEffect(() => {
                 const handleEscape = (e) => {
@@ -1170,7 +1169,6 @@
                                     {[
                                         { icon: <Mail size={24} />, title: 'Email', value: 'djohnbanan@email.com', href: 'mailto:djohnbanan@email.com' },
                                         { icon: <Phone size={24} />, title: 'Phone', value: '+63 985 0345 730', href: 'tel:+639850345730' },
-                                        { icon: <MapPin size={24} />, title: 'Location', value: 'San Antonio, Nueva Ecija, Philippines', href: 'https://maps.google.com/?q=Santa+Barbara+San+Antonio+Nueva+Ecija' },
                                         { icon: <Facebook size={24} />, title: 'Facebook', value: 'Follow my profile', href: 'https://facebook.com/darvin', color: '#1877F2' }
                                     ].map((item, index) => (
                                         <a
