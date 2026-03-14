@@ -1,0 +1,10 @@
+[06-Mar-2026 16:06:39 Europe/Berlin] submit_message.php accessed
+[06-Mar-2026 16:06:39 Europe/Berlin] Config loaded from root
+[06-Mar-2026 16:06:39 Europe/Berlin] POST data received: Array
+(
+    [name] => DarvinJohn YT
+    [email] => darvinjohnb05@gmail.com
+    [message] => HI
+)
+
+[06-Mar-2026 16:06:39 Europe/Berlin] Submit button not pressed
